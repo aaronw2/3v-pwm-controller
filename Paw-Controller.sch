@@ -927,4 +927,10 @@ Wire Notes Line
 	6200 3500 10300 3500
 Wire Notes Line
 	6200 4600 10300 4600
+Text Label 8100 2600 0    50   ~ 0
+PWM0
+Text Label 8100 2700 0    50   ~ 0
+PWM1
+Text Label 8850 3300 0    50   ~ 0
+PWM2
 $EndSCHEMATC

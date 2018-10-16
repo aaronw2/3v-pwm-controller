@@ -119,6 +119,53 @@ X VOUT 7 500 50 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# Aaron:SI3493DDV-T1-GE3
+#
+DEF Aaron:SI3493DDV-T1-GE3 Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "Aaron:SI3493DDV-T1-GE3" 136 0 60 V V C CNN
+F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "http://www.vishay.com/docs/74735/si3493ddv.pdf" 200 300 60 H I L CNN
+F4 "Vishay Siliconix" -6 243 50 H V C CNN "MFR"
+F5 "SI3493DDV-T1-GE3" 200 500 60 H I L CNN "MPN"
+F6 "SI3493DDV-T1-GE3TR-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F7 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F8 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
+F9 "http://www.vishay.com/docs/74735/si3493ddv.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F10 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI3493DDV-T1-GE3/" 200 900 60 H I L CNN "DK_Detail_Page"
+F11 "MOSFET P-CH 20V 8A 6TSOP" 200 1000 60 H I L CNN "Description"
+F12 "Vishay Siliconix" 200 1100 60 H I L CNN "Manufacturer"
+F13 "Active" 200 1200 60 H I L CNN "Status"
+$FPLIST
+ TSOP-6_1.65x3.05mm_P0.95mm
+$ENDFPLIST
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 -8 20 -8 N
+P 4 1 1 0 -15 0 -45 20 -45 -20 -15 0 F
+P 4 1 1 0 40 -10 60 20 20 20 40 -10 F
+X D 1 0 200 100 D 50 50 1 1 B
+X D 2 0 200 100 D 50 50 1 1 B N
+X G 3 -300 -100 100 R 50 50 1 1 B
+X S 4 0 -200 100 U 50 50 1 1 B
+X D 5 0 200 100 D 50 50 1 1 B N
+X D 6 0 200 100 D 50 50 1 1 B N
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic:Conn_01x02
 #
 DEF Connector_Generic:Conn_01x02 J 0 40 Y N 1 F N
@@ -240,26 +287,6 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Diode:B120-E3
-#
-DEF Diode:B120-E3 D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Diode:B120-E3" 0 -100 50 H V C CNN
-F2 "Diode_SMD:D_SMA" 0 -175 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS B130-E3 B140-E3 B150-E3 B160-E3
-$FPLIST
- D*SMA*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

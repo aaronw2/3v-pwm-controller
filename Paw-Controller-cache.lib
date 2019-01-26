@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Aaron:ATSAMD21E18A-AF
+# Aaron_ATSAMD21E18A-AF
 #
-DEF Aaron:ATSAMD21E18A-AF U 0 40 Y Y 1 L N
+DEF Aaron_ATSAMD21E18A-AF U 0 40 Y Y 1 L N
 F0 "U" -401 1101 50 H V L BNN
-F1 "Aaron:ATSAMD21E18A-AF" -401 -1202 50 H V L BNN
+F1 "Aaron_ATSAMD21E18A-AF" -401 -1202 50 H V L BNN
 F2 "QFP80P900X900X120-32N" 1000 100 50 H I L BNN
 F3 "ATSAMD21E18A-AF" 1000 0 50 H I L BNN
 F4 "TQFP-32 Microchip" 1000 -200 50 H I L BNN
@@ -54,11 +54,11 @@ X GND 33 0 -1300 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Aaron:DMN1019USN
+# Aaron_DMN1019USN
 #
-DEF Aaron:DMN1019USN Q 0 40 Y Y 1 F N
+DEF Aaron_DMN1019USN Q 0 40 Y Y 1 F N
 F0 "Q" -150 150 50 H V C CNN
-F1 "Aaron:DMN1019USN" -350 250 50 H V C CNN
+F1 "Aaron_DMN1019USN" -350 250 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 200 60 H I L CNN
 F3 "https://www.diodes.com/assets/Datasheets/DMN1019USN.pdf" 200 300 60 H I L CNN
 F4 "Diodes Incorporated" -50 250 50 H V C CNN "MFR"
@@ -95,11 +95,31 @@ X D 3 0 200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Aaron:LMZ10503
+# Aaron_DRV5032FCDBZT
 #
-DEF Aaron:LMZ10503 U 0 40 Y Y 1 F N
+DEF Aaron_DRV5032FCDBZT U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "Aaron_DRV5032FCDBZT" 450 250 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23" -100 150 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/drv5032.pdf" 0 250 50 H I C CNN
+F4 "Texas Instruments" 100 350 50 H I C CNN "MFR"
+F5 "DRV5032FCDBZT" 200 450 50 H I C CNN "MPN"
+$FPLIST
+ SOT-23
+$ENDFPLIST
+DRAW
+S 400 200 0 -200 0 1 0 f
+X VCC 1 100 300 100 D 50 50 1 1 W
+X VOUT 2 500 0 100 L 50 50 1 1 O
+X GND 3 100 -300 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Aaron_LMZ10503
+#
+DEF Aaron_LMZ10503 U 0 40 Y Y 1 F N
 F0 "U" -300 250 50 H V C CNN
-F1 "Aaron:LMZ10503" 0 250 50 H V C CNN
+F1 "Aaron_LMZ10503" 0 250 50 H V C CNN
 F2 "Aaron:TO-PMOD-7_TabPin4" -400 150 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/lmz10503.pdf" -300 250 50 H I C CNN
 F4 "Texas Instruments" -200 350 50 H V C CNN "MFR"
@@ -119,14 +139,14 @@ X VOUT 7 500 50 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Aaron:SI3493DDV-T1-GE3
+# Aaron_SI3493DDV-T1-GE3
 #
-DEF Aaron:SI3493DDV-T1-GE3 Q 0 0 Y Y 1 F N
+DEF Aaron_SI3493DDV-T1-GE3 Q 0 0 Y Y 1 F N
 F0 "Q" -106 143 60 H V R CNN
-F1 "Aaron:SI3493DDV-T1-GE3" 136 0 60 V V C CNN
+F1 "Aaron_SI3493DDV-T1-GE3" 136 0 60 V V C CNN
 F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "http://www.vishay.com/docs/74735/si3493ddv.pdf" 200 300 60 H I L CNN
-F4 "Vishay Siliconix" -6 243 50 H V C CNN "MFR"
+F4 "Vishay Siliconix" 500 100 50 H I C CNN "MFR"
 F5 "SI3493DDV-T1-GE3" 200 500 60 H I L CNN "MPN"
 F6 "SI3493DDV-T1-GE3TR-ND" 200 400 60 H I L CNN "Digi-Key_PN"
 F7 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
@@ -166,11 +186,11 @@ X D 6 0 200 100 D 50 50 1 1 B N
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_01x02
+# Connector_Generic_Conn_01x02
 #
-DEF Connector_Generic:Conn_01x02 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic:Conn_01x02" 0 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -185,11 +205,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_01x08
+# Connector_Generic_Conn_01x08
 #
-DEF Connector_Generic:Conn_01x08 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x08 J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "Connector_Generic:Conn_01x08" 0 -500 50 H V C CNN
+F1 "Connector_Generic_Conn_01x08" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -216,11 +236,11 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x06_Odd_Even
+# Connector_Generic_Conn_02x06_Odd_Even
 #
-DEF Connector_Generic:Conn_02x06_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x06_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Connector_Generic:Conn_02x06_Odd_Even" 50 -400 50 H V C CNN
+F1 "Connector_Generic_Conn_02x06_Odd_Even" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -255,11 +275,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -273,11 +293,34 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_LED
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -290,11 +333,91 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+3.3V
+# Paw-Controller-rescue_R-device
 #
-DEF power:+3.3V #PWR 0 0 Y Y 1 F P
+DEF Paw-Controller-rescue_R-device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Paw-Controller-rescue_R-device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Paw-Controller-rescue_R_Pack02-device
+#
+DEF Paw-Controller-rescue_R_Pack02-device RN 0 0 Y N 1 F N
+F0 "RN" -200 0 50 V V C CNN
+F1 "Paw-Controller-rescue_R_Pack02-device" 100 0 50 V V C CNN
+F2 "" 175 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ DIP*
+ SOIC*
+$ENDFPLIST
+DRAW
+S -150 -95 50 95 0 1 10 f
+S -125 75 -75 -75 0 1 10 N
+S -25 75 25 -75 0 1 10 N
+P 2 0 1 0 -100 -100 -100 -75 N
+P 2 0 1 0 -100 75 -100 100 N
+P 2 0 1 0 0 -100 0 -75 N
+P 2 0 1 0 0 75 0 100 N
+X R1.1 1 -100 -200 100 U 50 50 1 1 P
+X R2.1 2 0 -200 100 U 50 50 1 1 P
+X R2.2 3 0 200 100 D 50 50 1 1 P
+X R1.2 4 -100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Paw-Controller-rescue_R_Pack04-device
+#
+DEF Paw-Controller-rescue_R_Pack04-device RN 0 0 Y N 1 F N
+F0 "RN" -300 0 50 V V C CNN
+F1 "Paw-Controller-rescue_R_Pack04-device" 200 0 50 V V C CNN
+F2 "" 275 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ DIP*
+ SOIC*
+$ENDFPLIST
+DRAW
+S -250 -95 150 95 0 1 10 f
+S -225 75 -175 -75 0 1 10 N
+S -125 75 -75 -75 0 1 10 N
+S -25 75 25 -75 0 1 10 N
+S 75 75 125 -75 0 1 10 N
+P 2 0 1 0 -200 -100 -200 -75 N
+P 2 0 1 0 -200 75 -200 100 N
+P 2 0 1 0 -100 -100 -100 -75 N
+P 2 0 1 0 -100 75 -100 100 N
+P 2 0 1 0 0 -100 0 -75 N
+P 2 0 1 0 0 75 0 100 N
+P 2 0 1 0 100 -100 100 -75 N
+P 2 0 1 0 100 75 100 100 N
+X R1.1 1 -200 -200 100 U 50 50 1 1 P
+X R2.1 2 -100 -200 100 U 50 50 1 1 P
+X R3.1 3 0 -200 100 U 50 50 1 1 P
+X R4.1 4 100 -200 100 U 50 50 1 1 P
+X R4.2 5 100 200 100 D 50 50 1 1 P
+X R3.2 6 0 200 100 D 50 50 1 1 P
+X R2.2 7 -100 200 100 D 50 50 1 1 P
+X R1.2 8 -200 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3.3V" 0 140 50 H V C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -306,11 +429,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -321,11 +444,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -334,11 +457,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# switch_tact_smt:SW_SPST_KMR2
+# switch_tact_smt_SW_SPST_KMR2
 #
-DEF switch_tact_smt:SW_SPST_KMR2 SW 0 40 Y Y 1 F N
+DEF switch_tact_smt_SW_SPST_KMR2 SW 0 40 Y Y 1 F N
 F0 "SW" -100 250 42 H V L BNN
-F1 "switch_tact_smt:SW_SPST_KMR2" -200 -200 42 H V L BNN
+F1 "switch_tact_smt_SW_SPST_KMR2" -200 -200 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

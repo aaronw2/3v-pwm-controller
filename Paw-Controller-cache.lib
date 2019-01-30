@@ -139,23 +139,26 @@ X VOUT 7 500 50 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Aaron_SI3493DDV-T1-GE3
+# Aaron_SI3407DV-T1-GE3
 #
-DEF Aaron_SI3493DDV-T1-GE3 Q 0 0 Y Y 1 F N
+DEF Aaron_SI3407DV-T1-GE3 Q 0 0 Y Y 1 F N
 F0 "Q" -106 143 60 H V R CNN
-F1 "Aaron_SI3493DDV-T1-GE3" 136 0 60 V V C CNN
+F1 "Aaron_SI3407DV-T1-GE3" 136 0 60 V V C CNN
 F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "http://www.vishay.com/docs/74735/si3493ddv.pdf" 200 300 60 H I L CNN
 F4 "Vishay Siliconix" 500 100 50 H I C CNN "MFR"
-F5 "SI3493DDV-T1-GE3" 200 500 60 H I L CNN "MPN"
-F6 "SI3493DDV-T1-GE3TR-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F7 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
-F8 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
-F9 "http://www.vishay.com/docs/74735/si3493ddv.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F10 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI3493DDV-T1-GE3/" 200 900 60 H I L CNN "DK_Detail_Page"
-F11 "MOSFET P-CH 20V 8A 6TSOP" 200 1000 60 H I L CNN "Description"
-F12 "Vishay Siliconix" 200 1100 60 H I L CNN "Manufacturer"
-F13 "Active" 200 1200 60 H I L CNN "Status"
+F5 "SI3407DV-T1-GE3" 200 500 60 H I L CNN "MPN"
+F6 "Digikey" 194 443 50 H I C CNN "SPR"
+F7 "SI3407DV-T1-GE3CT-ND" 294 543 50 H I C CNN "SPN"
+F8 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI3407DV-T1-GE3/SI3407DV-T1-GE3CT-ND/" 394 643 50 H I C CNN "SPURL"
+F9 "SI3407DV-T1-GE3TR-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F10 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F11 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
+F12 "http://www.vishay.com/docs/69987/si3407dv.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F13 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI3407DV-T1-GE3/SI3407DV-T1-GE3CT-ND/" 200 900 60 H I L CNN "DK_Detail_Page"
+F14 "MOSFET P-CH 20V 8A 6TSOP" 200 1000 60 H I L CNN "Description"
+F15 "Vishay Siliconix" 200 1100 60 H I L CNN "Manufacturer"
+F16 "Active" 200 1200 60 H I L CNN "Status"
 $FPLIST
  TSOP-6_1.65x3.05mm_P0.95mm
 $ENDFPLIST

@@ -771,69 +771,6 @@ Text Label 8100 2700 0    50   ~ 0
 PWM1
 Text Label 8850 3300 0    50   ~ 0
 PWM2
-$Comp
-L Aaron:SI3493DDV-T1-GE3 Q4
-U 1 1 5BC63C22
-P 6750 4950
-F 0 "Q4" H 6858 5048 60  0000 L CNN
-F 1 "SI3493DDV-T1-GE3" H 6850 5150 60  0000 L CNN
-F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 6950 5150 60  0001 L CNN
-F 3 "http://www.vishay.com/docs/74735/si3493ddv.pdf" H 6950 5250 60  0001 L CNN
-F 4 "Vishay Siliconix" H 6858 4844 50  0000 L CNN "MFR"
-F 5 "SI3493DDV-T1-GE3" H 6950 5450 60  0001 L CNN "MPN"
-F 6 "SI3493DDV-T1-GE3TR-ND" H 6950 5350 60  0001 L CNN "Digi-Key_PN"
-F 7 "Discrete Semiconductor Products" H 6950 5550 60  0001 L CNN "Category"
-F 8 "Transistors - FETs, MOSFETs - Single" H 6950 5650 60  0001 L CNN "Family"
-F 9 "http://www.vishay.com/docs/74735/si3493ddv.pdf" H 6950 5750 60  0001 L CNN "DK_Datasheet_Link"
-F 10 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI3493DDV-T1-GE3/" H 6950 5850 60  0001 L CNN "DK_Detail_Page"
-F 11 "MOSFET P-CH 20V 8A 6TSOP" H 6950 5950 60  0001 L CNN "Description"
-F 12 "Vishay Siliconix" H 6950 6050 60  0001 L CNN "Manufacturer"
-F 13 "Active" H 6950 6150 60  0001 L CNN "Status"
-	1    6750 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Aaron:SI3493DDV-T1-GE3 Q5
-U 1 1 5BC646E4
-P 7900 4950
-F 0 "Q5" H 8008 5048 60  0000 L CNN
-F 1 "SI3493DDV-T1-GE3" H 8000 5150 60  0000 L CNN
-F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 8100 5150 60  0001 L CNN
-F 3 "http://www.vishay.com/docs/74735/si3493ddv.pdf" H 8100 5250 60  0001 L CNN
-F 4 "Vishay Siliconix" H 8008 4844 50  0000 L CNN "MFR"
-F 5 "SI3493DDV-T1-GE3" H 8100 5450 60  0001 L CNN "MPN"
-F 6 "SI3493DDV-T1-GE3TR-ND" H 8100 5350 60  0001 L CNN "Digi-Key_PN"
-F 7 "Discrete Semiconductor Products" H 8100 5550 60  0001 L CNN "Category"
-F 8 "Transistors - FETs, MOSFETs - Single" H 8100 5650 60  0001 L CNN "Family"
-F 9 "http://www.vishay.com/docs/74735/si3493ddv.pdf" H 8100 5750 60  0001 L CNN "DK_Datasheet_Link"
-F 10 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI3493DDV-T1-GE3/" H 8100 5850 60  0001 L CNN "DK_Detail_Page"
-F 11 "MOSFET P-CH 20V 8A 6TSOP" H 8100 5950 60  0001 L CNN "Description"
-F 12 "Vishay Siliconix" H 8100 6050 60  0001 L CNN "Manufacturer"
-F 13 "Active" H 8100 6150 60  0001 L CNN "Status"
-	1    7900 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Aaron:SI3493DDV-T1-GE3 Q6
-U 1 1 5BC647C5
-P 9000 4950
-F 0 "Q6" H 9108 5048 60  0000 L CNN
-F 1 "SI3493DDV-T1-GE3" H 9150 5150 60  0000 L CNN
-F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 9200 5150 60  0001 L CNN
-F 3 "http://www.vishay.com/docs/74735/si3493ddv.pdf" H 9200 5250 60  0001 L CNN
-F 4 "Vishay Siliconix" H 9108 4844 50  0000 L CNN "MFR"
-F 5 "SI3493DDV-T1-GE3" H 9200 5450 60  0001 L CNN "MPN"
-F 6 "SI3493DDV-T1-GE3TR-ND" H 9200 5350 60  0001 L CNN "Digi-Key_PN"
-F 7 "Discrete Semiconductor Products" H 9200 5550 60  0001 L CNN "Category"
-F 8 "Transistors - FETs, MOSFETs - Single" H 9200 5650 60  0001 L CNN "Family"
-F 9 "http://www.vishay.com/docs/74735/si3493ddv.pdf" H 9200 5750 60  0001 L CNN "DK_Datasheet_Link"
-F 10 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI3493DDV-T1-GE3/" H 9200 5850 60  0001 L CNN "DK_Detail_Page"
-F 11 "MOSFET P-CH 20V 8A 6TSOP" H 9200 5950 60  0001 L CNN "Description"
-F 12 "Vishay Siliconix" H 9200 6050 60  0001 L CNN "Manufacturer"
-F 13 "Active" H 9200 6150 60  0001 L CNN "Status"
-	1    9000 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6450 5050 6250 5050
 Text Label 6250 5050 0    50   ~ 0
@@ -850,21 +787,18 @@ Wire Wire Line
 	6750 5150 7100 5150
 Wire Wire Line
 	7100 5150 7100 2600
-Connection ~ 6750 5150
 Wire Wire Line
 	7100 2600 8900 2600
 Wire Wire Line
 	7900 5150 8100 5150
 Wire Wire Line
 	8100 5150 8100 2700
-Connection ~ 7900 5150
 Wire Wire Line
 	9000 5150 9200 5150
 Wire Wire Line
 	9200 5150 9200 3300
 Wire Wire Line
 	8750 3300 9200 3300
-Connection ~ 9000 5150
 $Comp
 L power:+3.3V #PWR025
 U 1 1 5BC74F4E
@@ -925,7 +859,7 @@ NoConn ~ 3400 2400
 Wire Wire Line
 	3400 2500 4100 2500
 $Comp
-L device:R_Pack04 RN1
+L Paw-Controller-rescue:R_Pack04-device RN1
 U 1 1 5BC699CB
 P 6450 4150
 F 0 "RN1" H 6170 4196 50  0000 R CNN
@@ -935,17 +869,12 @@ F 3 "" H 6450 4150 50  0001 C CNN
 	1    6450 4150
 	-1   0    0    -1  
 $EndComp
-Connection ~ 8700 5050
 Wire Wire Line
 	6550 4350 6550 4450
 Wire Wire Line
-	7600 4450 7600 5050
-Connection ~ 7600 5050
-Connection ~ 6450 5050
-Wire Wire Line
 	6250 5450 6450 5450
 $Comp
-L device:R_Pack02 RN2
+L Paw-Controller-rescue:R_Pack02-device RN2
 U 1 1 5BC75711
 P 7400 6150
 F 0 "RN2" H 7220 6196 50  0000 R CNN
@@ -987,7 +916,7 @@ Wire Wire Line
 	7400 6350 7500 6350
 Connection ~ 7500 6350
 $Comp
-L device:R R7
+L Paw-Controller-rescue:R-device R7
 U 1 1 5BC971AA
 P 6250 5600
 F 0 "R7" H 6320 5646 50  0000 L CNN
@@ -1009,8 +938,6 @@ F 3 "" H 6250 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 4350 8700 5050
-Wire Wire Line
 	6450 3950 6550 3950
 Connection ~ 6450 3950
 Wire Wire Line
@@ -1018,8 +945,6 @@ Wire Wire Line
 Connection ~ 6550 3950
 Wire Wire Line
 	6550 4450 7600 4450
-Wire Wire Line
-	6450 4350 6450 5050
 Wire Notes Line
 	6100 3600 10200 3600
 Wire Wire Line
@@ -1070,7 +995,7 @@ Wire Wire Line
 Text Label 3700 3800 0    50   ~ 0
 PA11
 $Comp
-L device:R_Pack04 RN3
+L Paw-Controller-rescue:R_Pack04-device RN3
 U 1 1 5BE2766B
 P 3200 3300
 F 0 "RN3" H 2920 3346 50  0000 R CNN
@@ -1262,4 +1187,94 @@ F 3 "~" H 2000 4300 50  0001 C CNN
 $EndComp
 Text Notes 3250 4600 0    50   ~ 0
 Hall effect switch
+$Comp
+L Aaron:SI3407DV-T1-GE3 Q?
+U 1 1 5C524C33
+P 6750 4950
+F 0 "Q?" H 6858 4897 60  0000 L CNN
+F 1 "SI3407DV-T1-GE3" H 6550 4750 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 6950 5150 60  0001 L CNN
+F 3 "http://www.vishay.com/docs/74735/si3493ddv.pdf" H 6950 5250 60  0001 L CNN
+F 4 "Vishay Siliconix" H 7250 5050 50  0001 C CNN "MFR"
+F 5 "SI3407DV-T1-GE3" H 6950 5450 60  0001 L CNN "MPN"
+F 6 "Digikey" H 6944 5393 50  0001 C CNN "SPR"
+F 7 "SI3407DV-T1-GE3CT-ND" H 7044 5493 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI3407DV-T1-GE3/SI3407DV-T1-GE3CT-ND/" H 7144 5593 50  0001 C CNN "SPURL"
+F 9 "SI3407DV-T1-GE3TR-ND" H 6950 5350 60  0001 L CNN "Digi-Key_PN"
+F 10 "Discrete Semiconductor Products" H 6950 5550 60  0001 L CNN "Category"
+F 11 "Transistors - FETs, MOSFETs - Single" H 6950 5650 60  0001 L CNN "Family"
+F 12 "http://www.vishay.com/docs/69987/si3407dv.pdf" H 6950 5750 60  0001 L CNN "DK_Datasheet_Link"
+F 13 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI3407DV-T1-GE3/SI3407DV-T1-GE3CT-ND/" H 6950 5850 60  0001 L CNN "DK_Detail_Page"
+F 14 "MOSFET P-CH 20V 8A 6TSOP" H 6950 5950 60  0001 L CNN "Description"
+F 15 "Vishay Siliconix" H 6950 6050 60  0001 L CNN "Manufacturer"
+F 16 "Active" H 6950 6150 60  0001 L CNN "Status"
+	1    6750 4950
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6450 4350 6450 4850
+Connection ~ 6450 4850
+Wire Wire Line
+	6450 4850 6450 5050
+Connection ~ 6750 5150
+Wire Wire Line
+	7600 4450 7600 4850
+$Comp
+L Aaron:SI3407DV-T1-GE3 Q?
+U 1 1 5C534FFC
+P 7900 4950
+F 0 "Q?" H 8008 4897 60  0000 L CNN
+F 1 "SI3407DV-T1-GE3" H 7700 4750 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 8100 5150 60  0001 L CNN
+F 3 "http://www.vishay.com/docs/74735/si3493ddv.pdf" H 8100 5250 60  0001 L CNN
+F 4 "Vishay Siliconix" H 8400 5050 50  0001 C CNN "MFR"
+F 5 "SI3407DV-T1-GE3" H 8100 5450 60  0001 L CNN "MPN"
+F 6 "Digikey" H 8094 5393 50  0001 C CNN "SPR"
+F 7 "SI3407DV-T1-GE3CT-ND" H 8194 5493 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI3407DV-T1-GE3/SI3407DV-T1-GE3CT-ND/" H 8294 5593 50  0001 C CNN "SPURL"
+F 9 "SI3407DV-T1-GE3TR-ND" H 8100 5350 60  0001 L CNN "Digi-Key_PN"
+F 10 "Discrete Semiconductor Products" H 8100 5550 60  0001 L CNN "Category"
+F 11 "Transistors - FETs, MOSFETs - Single" H 8100 5650 60  0001 L CNN "Family"
+F 12 "http://www.vishay.com/docs/69987/si3407dv.pdf" H 8100 5750 60  0001 L CNN "DK_Datasheet_Link"
+F 13 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI3407DV-T1-GE3/SI3407DV-T1-GE3CT-ND/" H 8100 5850 60  0001 L CNN "DK_Detail_Page"
+F 14 "MOSFET P-CH 20V 8A 6TSOP" H 8100 5950 60  0001 L CNN "Description"
+F 15 "Vishay Siliconix" H 8100 6050 60  0001 L CNN "Manufacturer"
+F 16 "Active" H 8100 6150 60  0001 L CNN "Status"
+	1    7900 4950
+	1    0    0    1   
+$EndComp
+Connection ~ 7900 5150
+Connection ~ 7600 4850
+Wire Wire Line
+	7600 4850 7600 5050
+Wire Wire Line
+	8700 4350 8700 4850
+$Comp
+L Aaron:SI3407DV-T1-GE3 Q?
+U 1 1 5C535C5D
+P 9000 4950
+F 0 "Q?" H 9108 4897 60  0000 L CNN
+F 1 "SI3407DV-T1-GE3" H 8800 4750 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 9200 5150 60  0001 L CNN
+F 3 "http://www.vishay.com/docs/74735/si3493ddv.pdf" H 9200 5250 60  0001 L CNN
+F 4 "Vishay Siliconix" H 9500 5050 50  0001 C CNN "MFR"
+F 5 "SI3407DV-T1-GE3" H 9200 5450 60  0001 L CNN "MPN"
+F 6 "Digikey" H 9194 5393 50  0001 C CNN "SPR"
+F 7 "SI3407DV-T1-GE3CT-ND" H 9294 5493 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI3407DV-T1-GE3/SI3407DV-T1-GE3CT-ND/" H 9394 5593 50  0001 C CNN "SPURL"
+F 9 "SI3407DV-T1-GE3TR-ND" H 9200 5350 60  0001 L CNN "Digi-Key_PN"
+F 10 "Discrete Semiconductor Products" H 9200 5550 60  0001 L CNN "Category"
+F 11 "Transistors - FETs, MOSFETs - Single" H 9200 5650 60  0001 L CNN "Family"
+F 12 "http://www.vishay.com/docs/69987/si3407dv.pdf" H 9200 5750 60  0001 L CNN "DK_Datasheet_Link"
+F 13 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI3407DV-T1-GE3/SI3407DV-T1-GE3CT-ND/" H 9200 5850 60  0001 L CNN "DK_Detail_Page"
+F 14 "MOSFET P-CH 20V 8A 6TSOP" H 9200 5950 60  0001 L CNN "Description"
+F 15 "Vishay Siliconix" H 9200 6050 60  0001 L CNN "Manufacturer"
+F 16 "Active" H 9200 6150 60  0001 L CNN "Status"
+	1    9000 4950
+	1    0    0    1   
+$EndComp
+Connection ~ 9000 5150
+Connection ~ 8700 4850
+Wire Wire Line
+	8700 4850 8700 5050
 $EndSCHEMATC
